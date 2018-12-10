@@ -10,6 +10,11 @@ function setCart(c) {
 }
 
 function addToCart(item) {
+  var itemName = new Object({ itemName: "name of the item", itemPrice: "price of the item", });
+  for (i = 0; i< items.length; i++) {
+    itemName.push(Math.floor(Math.random() * 100) + 1);
+  }
+  return itemName
  // write your code here
 }
 
